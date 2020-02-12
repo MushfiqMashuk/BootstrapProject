@@ -1,0 +1,47 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+ .height{
+    min-height: 100vh;
+    background-color: #41180b;
+} 
+
+#custom-nav{
+    
+    background-color: #343330;
+    
+}
+
+.title-underline{
+    width: 120px;
+    height: 5px;
+    margin: 0 auto;
+}
+
+ .height-80{
+    min-height: 80vh;
+}
+
+.about-picture{
+
+    background: url(img/programming.jpg) center/cover no-repeat;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; provide parralax efect */
+ 
+}
+
+#filler, #progress{
+    background: linear-gradient(rgb(0,0,0,.4), rgb(0,0,0,0.9)), url(img/london.jpg) center/cover no-repeat fixed;
+    
+}
+
+.no-border{
+    border: none;
+}
+
+#modal{
+    height: 500px !important;
+}
